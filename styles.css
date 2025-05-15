@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 106, 0);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: rgb(204, 89, 143);
+    padding: 2rem;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+}
+
+input, select, button {
+  display: block;
+  border-radius: 25px;
+  width: 90%;
+  margin: 10px 0px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+#result {
+  margin-top: 15px;
+  font-weight: bold;
+  color: green;
+}
+
+h1 {
+  color: yellow;
+  font-size: 2rem;
+  font-family: Tahoma;
+  margin-bottom: 20px;
+}
